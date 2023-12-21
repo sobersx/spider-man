@@ -1,0 +1,152 @@
+/*Шапка*/
+header {
+    font-family: 'Gilroy-Bold', sans-serif;
+     color: #fff;
+     padding: 20px 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+   
+   .logo img {
+     width: 200px;
+     height: 155px;
+     margin-left: 30px;
+     margin-right: 10px;
+   }
+   
+   hr {
+     border: none;
+     border-top: 1px solid #fff;
+     margin: 0 20px;
+     height: 1px;
+     flex-grow: 1;
+   }
+   
+   header ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+   }
+   
+   li { margin-right: 20px; }
+   
+   li p {
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     transition: color 0.3s;
+   }
+   
+   /*Тело*/
+   body {
+     background: linear-gradient(rgb(147, 5, 28),rgb(202, 26, 26),rgb(12, 1, 1));
+     background-attachment: fixed;
+     width: 85%; 
+     margin-left:auto; 
+     margin-right:auto;
+   }
+   
+   /*Название*/
+   .sait-nazvanie {
+     font-family: 'Verdana', sans-serif;
+     text-align: right;
+     color: white;
+   }
+   
+   /*Слайдер*/
+   .page-title {
+     text-align: center;
+   }
+   
+   .slider-container {
+     position: relative;
+     width: 700px;
+     height: 420px;
+     margin: 0 auto;
+     overflow: hidden;
+   }
+   
+   .slider {
+     display: flex;
+     transition: transform 0.5s ease-in-out;
+   }
+   
+   .slider img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+   
+   .prev-button,
+   .next-button {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 50px;
+     height: 50px;
+     background-color: transparent;
+     border: none;
+     font-size: 24px;
+     color: white;
+   }
+   
+   .prev-button {
+     left: 10px;
+   }
+   
+   .next-button {
+     right: 10px;
+   }
+   
+   /*Эбаут*/
+   .osnovnoi-text{
+     font-family: 'Verdana', sans-serif;
+     color: #fff;
+     width:80%;
+     font-size:18px;
+     text-align:justify;                                        
+     margin-left:auto; 
+     margin-right:auto;  
+   }
+   
+   /*Герои*/
+   .vse-bloki {
+     font-family: 'Verdana', sans-serif;
+     color: white;
+   }
+   
+   .pictures {
+     width: 100%;
+     height: 100%;
+   }
+   
+   /*Описание героев*/
+   .opisanie-zagolovka {
+    font-family: 'Verdana', sans-serif;
+     text-align:center;
+     color: white;
+   }
+   
+   .opisanie {
+    font-family: 'Verdana', sans-serif;
+   }
+   
+   /*Контакты*/
+   footer {
+     background-color: #00000000;
+     text-align: center;
+     width:100%;
+     border-radius: 4px;
+   }
+   
+   .Contacts {
+     display: inline-block;
+     margin-right: 119px;/*вот тут играться*/
+     margin-left: 119px;/*вот тут играться*/
+   }
+   .Contacts img{
+     width: 70px;
+     height: 70px;
+   }
